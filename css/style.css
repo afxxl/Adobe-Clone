@@ -23,7 +23,8 @@ nav .logo {
   margin-left: 40px;
 }
 nav ul {
-  margin-right: 33rem;
+  position: relative;
+  right: 15rem;
 }
 nav ul li {
   display: inline;
@@ -412,7 +413,7 @@ nav .sec-nav .sign {
 }
 
 footer {
-  height: 110vh;
+  height: 120vh;
   background: #fafafa;
   display: flex;
   justify-content: center;
@@ -432,7 +433,7 @@ footer .main-container h4 {
 }
 footer .main-container p {
   color: #000;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   font-size: 10px;
 }
 footer .main-container p:hover {
@@ -475,21 +476,26 @@ footer .extras {
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 footer .extras a {
   text-decoration: none;
   color: #808080;
 }
 footer .extras .globe {
+  color: #000;
   margin-left: 2rem;
+  font-size: 12px;
 }
 footer .extras .globe i {
   margin-right: 1rem;
   width: 20px;
   height: 20px;
+  font-size: 1.3rem;
 }
 footer .extras .link_icons {
+  position: relative;
+  right: 15rem;
   margin-left: 2rem;
 }
 footer .extras .link_icons a {
@@ -500,7 +506,7 @@ footer .extras .link_icons a i {
   height: 20px;
 }
 footer .extras .para {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

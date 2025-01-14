@@ -16,7 +16,8 @@ nav {
     margin-left: 40px;
   }
   ul {
-    margin-right: 33rem;
+    position: relative;
+    right: 15rem;
 
     li {
       display: inline;
@@ -29,6 +30,7 @@ nav {
         font-family: $primary-font;
         font-weight: lighter;
       }
+
       .fa-chevron-down {
         color: #000;
       }

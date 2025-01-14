@@ -1,5 +1,5 @@
 footer {
-  height: 110vh;
+  height: 120vh;
   background: #fafafa;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ footer {
     }
     p {
       color: #000;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.2rem;
       font-size: 10px;
     }
     p:hover {
@@ -64,21 +64,27 @@ footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     a {
       text-decoration: none;
       color: #808080;
     }
     .globe {
+      color: #000;
       margin-left: 2rem;
+      font-size: 12px;
+
       i {
         margin-right: 1rem;
         width: 20px;
         height: 20px;
+        font-size: 1.3rem;
       }
     }
 
     .link_icons {
+      position: relative;
+      right: 15rem;
       margin-left: 2rem;
       a {
         margin-right: 10px;
@@ -89,7 +95,7 @@ footer {
       }
     }
     .para {
-      font-size: 12px;
+      font-size: 10px;
     }
   }
 }
